@@ -2,10 +2,10 @@ package model.dao.impl;
 
 import java.util.List;
 
-import model.dao.DeparmentDao;
+import model.dao.DepartmentDao;
 import model.entities.Department;
 
-public class DepartementDaoJDBC implements DeparmentDao{
+public class DepartementDaoJDBC implements DepartmentDao{
 
 	@Override
 	public void insert(Department obj) {
