@@ -1,5 +1,6 @@
 package application;
 
+
 import java.util.Date;
 import java.util.List;
 
@@ -39,6 +40,12 @@ public class Program {
 		sellerDao.insert(newSeller);
 		System.out.println("Inserted! New ID = " + newSeller.getId());
 		
+		System.out.println();
+		System.out.println("=== Test 5 Update ===");
+		seller = sellerDao.findById(2);
+		seller.setName("Novo Nome");
+
+		System.out.println(seller);
 		
 	}
 
